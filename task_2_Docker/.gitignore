@@ -1,0 +1,17 @@
+# Docker volumes
+pgdata/
+*.log
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables (важно!)
+.env
+.env.*
+!.env.example
+
+# OS files
+Thumbs.db
+desktop.ini
