@@ -1,0 +1,1 @@
+SELECT AVG(s_all_avg) AS average_activity FROM user_logs;
