@@ -1,0 +1,263 @@
+[2026-06-04T06:36:13.605+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:36:13.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:36:13.610+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.610+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:36:13.668+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:36:13.861+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.860+0000] {override.py:1911} INFO - Created Permission View: can edit on DAG:create_performance_mart
+[2026-06-04T06:36:13.875+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.874+0000] {override.py:1911} INFO - Created Permission View: can read on DAG:create_performance_mart
+[2026-06-04T06:36:13.885+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.885+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG:create_performance_mart
+[2026-06-04T06:36:13.897+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.897+0000] {override.py:1911} INFO - Created Permission View: menu access on DAG Run:create_performance_mart
+[2026-06-04T06:36:13.908+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.907+0000] {override.py:1911} INFO - Created Permission View: can read on DAG Run:create_performance_mart
+[2026-06-04T06:36:13.917+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.916+0000] {override.py:1911} INFO - Created Permission View: can create on DAG Run:create_performance_mart
+[2026-06-04T06:36:13.929+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.928+0000] {override.py:1911} INFO - Created Permission View: can delete on DAG Run:create_performance_mart
+[2026-06-04T06:36:13.930+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:36:13.950+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.949+0000] {dag.py:3262} INFO - Creating ORM DAG for create_performance_mart
+[2026-06-04T06:36:13.951+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:13.951+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:36:13.976+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.382 seconds
+[2026-06-04T06:36:44.119+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:36:44.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:36:44.122+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:44.122+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:36:44.150+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:36:44.182+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:44.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:36:44.197+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:36:44.197+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:36:44.224+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.110 seconds
+[2026-06-04T06:37:14.577+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:37:14.578+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:37:14.585+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:37:14.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:37:14.613+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:37:14.643+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:37:14.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:37:14.662+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:37:14.661+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:37:14.693+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.125 seconds
+[2026-06-04T06:37:45.063+0000] {processor.py:186} INFO - Started process (PID=227) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:37:45.065+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:37:45.068+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:37:45.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:37:45.098+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:37:45.129+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:37:45.129+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:37:45.144+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:37:45.144+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:37:45.163+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.108 seconds
+[2026-06-04T06:38:15.529+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:38:15.530+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:38:15.534+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:38:15.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:38:15.574+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:38:15.624+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:38:15.623+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:38:15.646+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:38:15.645+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:38:15.677+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.158 seconds
+[2026-06-04T06:38:46.066+0000] {processor.py:186} INFO - Started process (PID=261) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:38:46.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:38:46.073+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:38:46.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:38:46.111+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:38:46.154+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:38:46.154+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:38:46.177+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:38:46.177+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:38:46.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.153 seconds
+[2026-06-04T06:39:16.622+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:39:16.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:39:16.627+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:39:16.627+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:39:16.668+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:39:16.714+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:39:16.714+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:39:16.738+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:39:16.738+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:39:16.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.169 seconds
+[2026-06-04T06:39:47.011+0000] {processor.py:186} INFO - Started process (PID=293) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:39:47.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:39:47.016+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:39:47.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:39:47.050+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:39:47.094+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:39:47.094+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:39:47.116+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:39:47.116+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:39:47.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.148 seconds
+[2026-06-04T06:40:17.532+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:40:17.533+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:40:17.537+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:40:17.536+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:40:17.567+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:40:17.599+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:40:17.598+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:40:17.615+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:40:17.615+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:40:17.642+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.117 seconds
+[2026-06-04T06:40:48.038+0000] {processor.py:186} INFO - Started process (PID=325) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:40:48.040+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:40:48.045+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:40:48.045+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:40:48.085+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:40:48.127+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:40:48.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:40:48.151+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:40:48.151+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:40:48.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.148 seconds
+[2026-06-04T06:41:18.653+0000] {processor.py:186} INFO - Started process (PID=344) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:41:18.655+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:41:18.659+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:41:18.659+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:41:18.702+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:41:18.749+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:41:18.749+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:41:18.773+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:41:18.773+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:41:18.813+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.171 seconds
+[2026-06-04T06:41:49.191+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:41:49.192+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:41:49.195+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:41:49.195+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:41:49.228+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:41:49.258+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:41:49.258+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:41:49.273+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:41:49.273+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:41:49.297+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.113 seconds
+[2026-06-04T06:42:19.547+0000] {processor.py:186} INFO - Started process (PID=379) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:42:19.548+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:42:19.551+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:42:19.550+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:42:19.585+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:42:19.619+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:42:19.619+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:42:19.638+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:42:19.638+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:42:19.666+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.126 seconds
+[2026-06-04T06:42:50.020+0000] {processor.py:186} INFO - Started process (PID=395) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:42:50.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:42:50.024+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:42:50.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:42:50.055+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:42:50.089+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:42:50.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:42:50.106+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:42:50.105+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:42:50.134+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.121 seconds
+[2026-06-04T06:43:20.549+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:43:20.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:43:20.555+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:43:20.554+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:43:20.596+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:43:20.644+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:43:20.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:43:20.664+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:43:20.664+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:43:20.703+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.164 seconds
+[2026-06-04T06:43:51.090+0000] {processor.py:186} INFO - Started process (PID=427) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:43:51.092+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:43:51.095+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:43:51.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:43:51.125+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:43:51.157+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:43:51.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:43:51.174+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:43:51.174+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:43:51.200+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.116 seconds
+[2026-06-04T06:44:21.579+0000] {processor.py:186} INFO - Started process (PID=443) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:44:21.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:44:21.585+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:44:21.585+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:44:21.628+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:44:21.662+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:44:21.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:44:21.678+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:44:21.678+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:44:21.706+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.134 seconds
+[2026-06-04T06:44:52.102+0000] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:44:52.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:44:52.108+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:44:52.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:44:52.141+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:44:52.179+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:44:52.178+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:44:52.200+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:44:52.199+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:44:52.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.135 seconds
+[2026-06-04T06:45:22.606+0000] {processor.py:186} INFO - Started process (PID=477) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:45:22.607+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:45:22.609+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:45:22.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:45:22.654+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:45:22.642+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/create_performance_mart_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/create_performance_mart_dag.py", line 8, in <module>
+    from build_performance_mart import main
+  File "/opt/airflow/dags/scripts/build_performance_mart.py", line 10
+    """Читает параметры подключения из переменных окружения"""
+       ^^^^^^
+SyntaxError: invalid syntax
+[2026-06-04T06:45:22.656+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:45:22.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.097 seconds
+[2026-06-04T06:45:53.089+0000] {processor.py:186} INFO - Started process (PID=493) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:45:53.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:45:53.095+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:45:53.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:45:53.149+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:45:53.184+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:45:53.184+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:45:53.207+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:45:53.206+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:45:53.247+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.165 seconds
+[2026-06-04T06:46:28.724+0000] {processor.py:186} INFO - Started process (PID=176) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:46:28.725+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:46:28.727+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:46:28.727+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:46:28.760+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:46:28.792+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:46:28.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:46:28.815+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:46:28.815+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:46:28.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.128 seconds
+[2026-06-04T06:46:59.070+0000] {processor.py:186} INFO - Started process (PID=201) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:46:59.071+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:46:59.073+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:46:59.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:46:59.100+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:46:59.133+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:46:59.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:46:59.149+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:46:59.148+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:46:59.176+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.111 seconds
+[2026-06-04T06:47:29.567+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:47:29.569+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:47:29.584+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:47:29.583+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:47:29.618+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:47:29.650+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:47:29.650+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:47:29.668+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:47:29.668+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:47:29.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.138 seconds
+[2026-06-04T06:48:00.062+0000] {processor.py:186} INFO - Started process (PID=233) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:48:00.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:48:00.068+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:48:00.067+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:48:00.097+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:48:00.129+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:48:00.128+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:48:00.146+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:48:00.145+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:48:00.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.109 seconds
+[2026-06-04T06:48:30.552+0000] {processor.py:186} INFO - Started process (PID=249) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:48:30.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:48:30.559+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:48:30.559+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:48:30.593+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:48:30.638+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:48:30.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:48:30.654+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:48:30.654+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:48:30.679+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.137 seconds
+[2026-06-04T06:49:01.048+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:49:01.049+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:49:01.051+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:49:01.051+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:49:01.080+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:49:01.116+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:49:01.115+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:49:01.137+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:49:01.137+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:49:01.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.123 seconds
+[2026-06-04T06:49:31.552+0000] {processor.py:186} INFO - Started process (PID=281) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:49:31.554+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:49:31.558+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:49:31.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:49:31.595+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:49:31.637+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:49:31.637+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:49:31.656+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:49:31.656+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:49:31.685+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.141 seconds
+[2026-06-04T06:50:02.041+0000] {processor.py:186} INFO - Started process (PID=297) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:50:02.042+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:50:02.044+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:50:02.044+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:50:02.074+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:50:02.106+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:50:02.105+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:50:02.120+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:50:02.120+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:50:02.144+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.110 seconds
+[2026-06-04T06:50:32.523+0000] {processor.py:186} INFO - Started process (PID=313) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:50:32.526+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:50:32.530+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:50:32.529+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:50:32.564+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:50:32.594+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:50:32.594+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:50:32.611+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:50:32.610+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:50:32.639+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.128 seconds
+[2026-06-04T06:51:03.015+0000] {processor.py:186} INFO - Started process (PID=329) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:51:03.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:51:03.020+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:51:03.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:51:03.052+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:51:03.087+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:51:03.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:51:03.106+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:51:03.106+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:51:03.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.128 seconds
+[2026-06-04T06:51:33.591+0000] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:51:33.592+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:51:33.595+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:51:33.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:51:33.624+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:51:33.655+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:51:33.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:51:33.671+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:51:33.671+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:51:33.700+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.115 seconds
+[2026-06-04T06:52:04.068+0000] {processor.py:186} INFO - Started process (PID=362) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:52:04.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:52:04.071+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:52:04.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:52:04.100+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:52:04.129+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:52:04.129+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:52:04.146+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:52:04.146+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:52:04.172+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.111 seconds
+[2026-06-04T06:52:34.540+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:52:34.542+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:52:34.545+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:52:34.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:52:34.581+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:52:34.616+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:52:34.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:52:34.641+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:52:34.640+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:52:34.673+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.140 seconds
+[2026-06-04T06:53:05.059+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:53:05.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:53:05.064+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:53:05.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:53:05.104+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:53:05.152+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:53:05.151+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:53:05.174+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:53:05.173+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:53:05.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.157 seconds
+[2026-06-04T06:53:35.600+0000] {processor.py:186} INFO - Started process (PID=410) to work on /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:53:35.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/create_performance_mart_dag.py for tasks to queue
+[2026-06-04T06:53:35.604+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:53:35.604+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:53:35.633+0000] {processor.py:925} INFO - DAG(s) 'create_performance_mart' retrieved from /opt/airflow/dags/create_performance_mart_dag.py
+[2026-06-04T06:53:35.667+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:53:35.666+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-04T06:53:35.691+0000] {logging_mixin.py:190} INFO - [2026-06-04T06:53:35.691+0000] {dag.py:4180} INFO - Setting next_dagrun for create_performance_mart to None, run_after=None
+[2026-06-04T06:53:35.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/create_performance_mart_dag.py took 0.126 seconds

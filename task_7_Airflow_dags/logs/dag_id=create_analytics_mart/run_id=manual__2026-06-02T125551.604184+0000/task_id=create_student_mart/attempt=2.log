@@ -1,0 +1,118 @@
+[2026-06-02T13:00:53.201+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-02T13:00:53.218+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: create_analytics_mart.create_student_mart manual__2026-06-02T12:55:51.604184+00:00 [queued]>
+[2026-06-02T13:00:53.226+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: create_analytics_mart.create_student_mart manual__2026-06-02T12:55:51.604184+00:00 [queued]>
+[2026-06-02T13:00:53.228+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2026-06-02T13:00:53.243+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): create_student_mart> on 2026-06-02 12:55:51.604184+00:00
+[2026-06-02T13:00:53.251+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'create_analytics_mart', 'create_student_mart', 'manual__2026-06-02T12:55:51.604184+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/create_mart_dag.py', '--cfg-path', '/tmp/tmps8bzena7']
+[2026-06-02T13:00:53.254+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=323) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2026-06-02T13:00:53.255+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask create_student_mart
+[2026-06-02T13:00:53.255+0000] {standard_task_runner.py:72} INFO - Started process 325 to run task
+[2026-06-02T13:00:53.305+0000] {task_command.py:467} INFO - Running <TaskInstance: create_analytics_mart.create_student_mart manual__2026-06-02T12:55:51.604184+00:00 [running]> on host 34972e029f9d
+[2026-06-02T13:00:53.383+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='create_analytics_mart' AIRFLOW_CTX_TASK_ID='create_student_mart' AIRFLOW_CTX_EXECUTION_DATE='2026-06-02T12:55:51.604184+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-02T12:55:51.604184+00:00'
+[2026-06-02T13:00:53.385+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2026-06-02T13:00:53.398+0000] {logging_mixin.py:190} INFO - Подключение к host.docker.internal:5433 ...
+[2026-06-02T13:00:53.403+0000] {logging_mixin.py:190} INFO - Ошибка: connection to server at "host.docker.internal" (192.168.65.254), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+[2026-06-02T13:00:53.404+0000] {taskinstance.py:3311} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/scripts/build_mart.py", line 24, in create_mart
+    conn = psycopg2.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "host.docker.internal" (192.168.65.254), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2026-06-02T13:00:53.420+0000] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=create_analytics_mart, task_id=create_student_mart, run_id=manual__2026-06-02T12:55:51.604184+00:00, execution_date=20260602T125551, start_date=20260602T130053, end_date=20260602T130053
+[2026-06-02T13:00:53.432+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2026-06-02T13:00:53.433+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 5 for task create_student_mart (connection to server at "host.docker.internal" (192.168.65.254), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+; 325)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3005, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3159, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3183, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 422, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/scripts/build_mart.py", line 24, in create_mart
+    conn = psycopg2.connect(**config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.OperationalError: connection to server at "host.docker.internal" (192.168.65.254), port 5433 failed: Connection refused
+	Is the server running on that host and accepting TCP/IP connections?
+
+[2026-06-02T13:00:53.470+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2026-06-02T13:00:53.486+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-02T13:00:53.488+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
