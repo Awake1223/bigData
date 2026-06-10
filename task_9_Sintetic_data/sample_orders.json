@@ -1,0 +1,84 @@
+[
+  {
+    "order_id": 1,
+    "client_id": 950,
+    "restaurant_id": 1,
+    "total_amount": 238.8,
+    "items": [
+      {
+        "dish_id": 6,
+        "quantity": 3,
+        "price_at_order": 79.6
+      }
+    ]
+  },
+  {
+    "order_id": 2,
+    "client_id": 569,
+    "restaurant_id": 9,
+    "total_amount": 442.1,
+    "items": [
+      {
+        "dish_id": 162,
+        "quantity": 3,
+        "price_at_order": 60.9
+      },
+      {
+        "dish_id": 162,
+        "quantity": 3,
+        "price_at_order": 60.9
+      },
+      {
+        "dish_id": 172,
+        "quantity": 1,
+        "price_at_order": 76.7
+      }
+    ]
+  },
+  {
+    "order_id": 3,
+    "client_id": 378,
+    "restaurant_id": 1,
+    "total_amount": 137.4,
+    "items": [
+      {
+        "dish_id": 5,
+        "quantity": 3,
+        "price_at_order": 26.4
+      },
+      {
+        "dish_id": 7,
+        "quantity": 1,
+        "price_at_order": 58.2
+      }
+    ]
+  },
+  {
+    "order_id": 4,
+    "client_id": 534,
+    "restaurant_id": 1,
+    "total_amount": 768.3,
+    "items": [
+      {
+        "dish_id": 16,
+        "quantity": 3,
+        "price_at_order": 93.1
+      },
+      {
+        "dish_id": 7,
+        "quantity": 3,
+        "price_at_order": 58.2
+      },
+      {
+        "dish_id": 17,
+        "quantity": 3,
+        "price_at_order": 66.4
+      },
+      {
+        "dish_id": 18,
+        "quantity": 3,
+        "price_at_order": 38.4
+      }
+    ]
+  }
+]
